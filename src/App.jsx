@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom';
 import {Splitter, SplitterSide, SplitterContent, Page, Button}
 from 'react-onsenui';
 
-
-//css読み込み
+//ファイル読み込み
 import './style.css';
 import Page1 from "Page1.jsx";
 import Page2 from "Page2.jsx";

@@ -5,7 +5,7 @@ import {Page, Toolbar, ToolbarButton, Icon} from 'react-onsenui';
 export default class Page2 extends React.Component {
   constructor(props) {
     super(props);
-     this.renderToolbar = this.renderToolbar.bind(this);
+    this.renderToolbar = this.renderToolbar.bind(this);
   }
 
   renderToolbar() {
@@ -23,9 +23,8 @@ export default class Page2 extends React.Component {
   render() {
    return (
     <Page renderToolbar={this.renderToolbar}>
-      <div>ページ2!</div>
-       
-      </Page>
-);
-}
+      <div>ページ2!</div> 
+    </Page>
+    );
+  }
 }
